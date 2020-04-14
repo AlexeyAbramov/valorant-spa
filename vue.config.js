@@ -1,4 +1,4 @@
-
 module.exports = {
-  publicPath:  '/valorant-spa/'
+  publicPath: '/valorant-spa/'
+
 }

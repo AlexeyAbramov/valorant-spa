@@ -15,6 +15,10 @@ const routes = [
         path: '',
         redirect: {name:'characters'}
     },
+    {
+        path: '/valorant-spa',
+        redirect: {name:'characters'}
+    },
     {   name:'characters',
         path: '/characters',
         component: Characters

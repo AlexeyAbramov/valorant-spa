@@ -95,6 +95,7 @@ export default {
 .abilities-list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 
   width: 85%;
 }
@@ -176,5 +177,12 @@ export default {
 b{
     font-size: 15px;
     color: #fff;
+}
+
+
+@media screen and (max-width: 1180px){
+  .abilities-list{
+    justify-content: space-around;
+  }
 }
 </style>

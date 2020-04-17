@@ -1,6 +1,10 @@
 <template>
   <div class="main-content">
-    <h3 class="content-title">Valorant {{ hero.name }}</h3>
+    <div class="content-title">
+      <img :src="photoSrc(hero.photo)" alt="hero-logo" class="content-title__logo">
+      <h3 class="content-title__heading"> Valorant {{ hero.name }}</h3>
+      <router-link tag="i" to="/characters" class="fas fa-retweet content-title__back-button"></router-link>
+    </div>
     <div class="abilities">
       <ul class="abilities-list">
         <li
@@ -45,6 +49,9 @@ export default {
     };
   },
   methods: {
+    photoSrc(url){
+      return require('../../img/Characters/'+url.replace(/300/,'-logo'))
+    },
     abilitiesSrc(url){
       return require('../../img/Abilities/'+ url)
     },
@@ -66,20 +73,40 @@ export default {
 </script>
 
 <style scoped>
+.content-title__logo{
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.content-title__heading{
+  align-self: center;
+
+  margin: 0px 20px 0 0;
+}
+.content-title__back-button{
+  margin-top: 4px;
+  font-size: 30px;
+  /* color:#ff4654; */
+
+  align-self: center;
+}
+.content-title__back-button:hover{
+  cursor: pointer;
+}
 .abilities-list {
   display: flex;
   justify-content: space-between;
 
   width: 85%;
 }
-li {
+.ability {
   width: calc(25% - 20px);
 
   background-color: #141313;
-}
-.ability {
   border-radius: 5px;
   border: 2px solid #ff4654;
+
+  min-width: 238px;
+  margin-top: 30px;
 }
 .ability-content,
 .description{

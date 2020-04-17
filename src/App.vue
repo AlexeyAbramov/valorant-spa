@@ -29,17 +29,22 @@ export default {
   background-color: #120303;
 }
 .content-title {
+  display: flex;
+
   color: #fff;
 
+  position: relative;
   padding: 30px 0 0 10px;
+  margin-bottom: 30px;
 }
 .content-title::after {
   display: block;
+  position: absolute;
+  bottom: -30px;
   content: '';
   height: 1px;
   width: 88%;
 
-  margin: 30px 0;
   background-color: #ff465457;
 }
 .main-content{

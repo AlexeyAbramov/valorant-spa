@@ -1,8 +1,10 @@
 <template>
   <div class="characters">
     <h3 class="content-title">Valorant Characters</h3>
-    <ul>
-      <router-link tag="li" :to="{name:'hero',params:{heroName:character.name.toLowerCase(),hero:character}}" v-for="character in characters" :key="character.name">
+    <ul class="characters-list">
+      <router-link tag="li" :to="{name:'hero',params:{heroName:character.name.toLowerCase(),hero:character}}" v-for="character in characters" 
+                                                                                                              :key="character.name"
+                                                                                                              class="characters-list__item">
         <img :src="getSrc(character.photo)" alt="character-logo" />
         <p>{{ character.name }}</p>
       </router-link>
@@ -77,20 +79,20 @@ p:hover::after {
     rgba(19, 19, 19, 0.10968137254901966) 100%
   );
 }
-ul {
+.characters-list {
   display: flex;
   flex-wrap: wrap;
 
   padding-right: 150px;
 }
-li {
+.characters-list__item {
   position: relative;
   overflow: hidden;
 
   width: 17%;
   height: 300px;
   min-width: 200px;
-  margin: 15px 0 0 30px;
+  margin: 15px auto;
 
   border-radius: 5px;
   border: 1px solid #ff465457;

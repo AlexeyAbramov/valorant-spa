@@ -18,9 +18,6 @@ export default {
 </script>
 
 <style scoped>
-h2{
-  font-size: 22px!important;
-}
 li.router-link-active
 {
   color: #ff4654;

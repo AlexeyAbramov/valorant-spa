@@ -35,8 +35,7 @@ export default {
 </script>
 
 <style scoped>
-.logo,
-h1 {
+.logo{
   cursor: pointer;
 }
 .header-title {

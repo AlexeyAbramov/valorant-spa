@@ -28,9 +28,9 @@
               {{ability.cnt}}
           </div>
           <div class="description">
-            <p v-for="(spell, index) in ability.description" :key="index"  >
-              <b class="description__rules">{{spell.rules}}</b>                  
-                   {{spell.text}}   
+            <p v-for="(spell, index) in ability.description" :key="index">
+              <b class="description__rules mr-1">{{spell.rules}}</b>                  
+                   <span v-html="spell.text" class="description__text"> {{spell.text}}</span>
             </p>
                                 
           </div>
@@ -84,7 +84,7 @@ export default {
 }
 .content-title__back-button{
   margin-top: 4px;
-  font-size: 30px;
+  font-size: 1.875rem;
   /* color:#ff4654; */
 
   align-self: center;
@@ -123,7 +123,7 @@ export default {
   margin-right: 15px;
 }
 .ability-content__name {
-  font-size: 16px;
+  font-size: 1rem;
   margin-bottom: 0;
 
   color: #fff;
@@ -173,10 +173,6 @@ export default {
 .description__item{
     display: flex;
     width: 100%;
-}
-b{
-    font-size: 15px;
-    color: #fff;
 }
 
 

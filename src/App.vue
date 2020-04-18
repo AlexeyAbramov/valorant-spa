@@ -63,16 +63,21 @@ ul {
   list-style: none;
   margin: 0!important;
 }
+b{
+  font-size: .9375rem;
+  color: #fff;
+}
 h1 {
   align-self: center;
 
   font-size: 25px;
 
   color: #fff;
+  cursor: pointer;
 }
 h2{
   margin: 0!important;
-  font-size: 25px!important;
+  font-size: 1.375rem!important;
 }
 main{
   display: flex!important;

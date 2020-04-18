@@ -176,7 +176,7 @@ export default {
               {
                 rules: 'FIRE',
                 text:
-                  'to place a destructible and covert tripwire at the targeted location, creating a line that spans between the placed location and the wall opposite. Enemy players who cross a tripwire will be tethered, revealed, and dazed after a short period if they do not destroy the device in time. This ability can be picked up to be REDEPLOYED.'
+                  'to place a destructible and covert tripwire at the targeted location, creating a line that spans between the placed location and the wall opposite. Enemy players who cross a tripwire will be tethered, revealed, and dazed after a short period if they do not destroy the device in time. This ability can be picked up to be <b>REDEPLOYED</b>.'
               }
             ]
           },
@@ -218,7 +218,7 @@ export default {
               {
                 rules: 'RE-USE',
                 text:
-                  "'this ability to take control of the camera's view. While in control of the camera, FIRE to shoot a marking dart. This dart will reveal the location of any player struck by the dart.'"
+                  "'this ability to take control of the camera's view. While in control of the camera, <b>FIRE</b> to shoot a marking dart. This dart will reveal the location of any player struck by the dart.'"
               }
             ]
           },
@@ -637,7 +637,7 @@ export default {
               {
                 rules: 'FIRE',
                 text:
-                  'to deploy and take control of movement of the drone. While in control of the drone, FIRE to shoot a marking dart. This dart will reveal the location of any player struck by the dart.'
+                  'to deploy and take control of movement of the drone. While in control of the drone, <b>FIRE</b> to shoot a marking dart. This dart will reveal the location of any player struck by the dart.'
               }
             ]
           },
@@ -701,7 +701,7 @@ export default {
               {
                 rules: 'FIRE',
                 text:
-                  'to release an energy blast in a line in front of Sova, dealing damage and revealing the location of enemies caught in the line. This ability can be RE-USED up to two more times while the ability timer is active.'
+                  'to release an energy blast in a line in front of Sova, dealing damage and revealing the location of enemies caught in the line. This ability can be <b>RE-USED</b> up to two more times while the ability timer is active.'
               }
             ]
           }
@@ -741,7 +741,7 @@ export default {
               {
                 rules: 'FIRE',
                 text:
-                  'to throw the emitter that perpetually remains throughout the round. RE-USE the ability to create a toxic gas cloud at the cost of fuel. This ability can be RE-USED more than once and can be picked up to be REDEPLOYED.'
+                  'to throw the emitter that perpetually remains throughout the round. <b>RE-USE</b> the ability to create a toxic gas cloud at the cost of fuel. This ability can be <b>RE-USED</b> more than once and can be picked up to be <b>REDEPLOYED</b>.'
               }
             ]
           },
@@ -762,7 +762,7 @@ export default {
               {
                 rules: 'RE-USE',
                 text:
-                  'the ability to create a tall wall of toxic gas at the cost of fuel. This ability can be RE-USED more than once.'
+                  'the ability to create a tall wall of toxic gas at the cost of fuel. This ability can be <b>RE-USED</b> more than once.'
               }
             ]
           },

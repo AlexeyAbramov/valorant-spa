@@ -50,7 +50,7 @@ export default {
 .main-content{
   width: 85vw;
 
-  padding-left: 150px;
+  padding: 0 150px;
 }
 
 * {

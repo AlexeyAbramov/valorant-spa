@@ -1,5 +1,5 @@
 <template>
-  <div class="Maps">
+  <div class="maps">
     <h3 class="content-title">
       Valorant Maps
     </h3>

@@ -37,7 +37,7 @@ export default {
     },
     getters: {
         weapons(state) {
-            return state.weapons;
+            return state;
         }
     }
 }

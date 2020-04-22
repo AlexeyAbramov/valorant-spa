@@ -1,5 +1,5 @@
 <template>
-  <div class="main-content">
+  <div class="hero">
     <div class="content-title">
       <img :src="photoSrc(hero.photo)" alt="hero-logo" class="content-title__logo">
       <h3 class="content-title__heading"> Valorant {{ hero.name }}</h3>

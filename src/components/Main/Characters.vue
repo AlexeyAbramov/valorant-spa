@@ -1,6 +1,8 @@
 <template>
   <div class="characters">
-    <h3 class="content-title">Valorant Characters</h3>
+    <div class="content-title">
+      <h3 class="characters__heading"> Valorant Characters</h3>
+      </div>
     <ul class="characters-list">
       <router-link tag="li" :to="{name:'hero',params:{heroName:character.name.toLowerCase(),hero:character}}" v-for="character in characters" 
                                                                                                               :key="character.name"
@@ -77,7 +79,7 @@ p:hover::after {
   display: flex;
   flex-wrap: wrap;
 
-  padding-right: 150px;
+  padding-top: 20px;
 }
 .characters-list__item {
   position: relative;

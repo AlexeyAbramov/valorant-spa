@@ -37,6 +37,18 @@
        <td>
         {{weapon.leg}}
     </td>
+    <td>
+        {{weapon.range.join('/')}}
+    </td>
+    <td>
+        {{weapon.mag_size}}
+    </td>
+    <td>
+        {{weapon.fire_rate.join('/')}}
+    </td>
+    <td>
+        {{weapon.penetration}}
+    </td>
     </tr>
   </tbody>
 </table>
